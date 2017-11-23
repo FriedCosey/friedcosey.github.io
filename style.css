@@ -25,12 +25,12 @@ body{
     display:inline;
 }
 
-.fa-pencil{
+.fa-book{
     color:white;
     font-size:175%;
 }
 
-.fa-pencil:hover{
+.fa-book:hover{
     color:#b7adad;
 }
 
