@@ -1,11 +1,9 @@
 body{
-    margin:0;
-    padding:0;
     background-color: #1b254a;
 }
 
 .profileBox-pic{
-    border-radius: 50%;
+    border-radius:50%;
     width:25%;
     margin-top:-10%;
     height:25%;
@@ -13,15 +11,15 @@ body{
 
 .profileBox{
     width:40%;
-    height:65%;
-    margin:auto;
-    margin-top:15%;
-    background-color: rgba(8, 9, 37, 0.5);
+    height:36%;
+    background-color:rgba(8, 9, 37, 0.5);
     color: white;
     text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
 }
-
-
 
 .profileBox-basic h3{
     display:inline;
