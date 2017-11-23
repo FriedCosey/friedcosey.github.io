@@ -1,12 +1,13 @@
 body{
     margin:0;
     padding:0;
-    background-color: #000000;
+    background-color: #1b254a;
 }
 
 .profileBox-pic{
     border-radius: 50%;
     width:25%;
+    margin-top:-10%;
     height:25%;
 }
 
@@ -15,19 +16,27 @@ body{
     height:65%;
     margin:auto;
     margin-top:15%;
-    text-align:center;
-    background-color: rgba(8, 9, 37, 0.6);
-    font-family: "Give You Glory";
+    background-color: rgba(8, 9, 37, 0.5);
     color: white;
+    text-align:center;
 }
 
-.profileBox h3{
+
+
+.profileBox-basic h3{
     display:inline;
+    font-family: "Give You Glory";
+}
+
+.profileBox-info h4{
+    text-decoration:underline;
+    display:inline;
+    font-family: 'Amatic SC', cursive;
 }
 
 .fa-book{
     color:white;
-    font-size:175%;
+    font-size:125%;
 }
 
 .fa-book:hover{
