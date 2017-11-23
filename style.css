@@ -1,5 +1,36 @@
 body{
     margin:0;
-    padding: 0;
-    background-color: rgba(8, 9, 37, 1);
+    padding:0;
+    background-color: rgba(8, 9, 3, 1);
 }
+
+.profileBox-pic{
+    border-radius: 50%;
+    width:25%;
+    height:25;
+}
+
+.profileBox{
+    width:30%;
+    height:35%;
+    margin:auto;
+    margin-top:15%;
+    text-align:center;
+    background-color: rgba(8, 9, 37, 0.4);
+    font-family: "Give You Glory";
+    color: white;
+}
+
+.profileBox h3{
+    display:inline;
+}
+
+.fa-pencil{
+    color:white;
+    font-size:175%;
+}
+
+.fa-pencil:hover{
+    color:#b7adad;
+}
+
