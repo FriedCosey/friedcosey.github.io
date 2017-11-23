@@ -1,0 +1,106 @@
+body{
+    background-color: #1b254a;
+    margin:0%;
+    padding:0%;
+    height:100%;
+    weight:100%;
+}
+
+.profileBox-pic{
+    border-radius:50%;
+    width:25%;
+    margin-top:-10%;
+    height:25%;
+}
+
+.profileBox{
+    width:80%;
+    height:76%;
+    background-color:rgba(8, 9, 37, 0.5);
+    color: white;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -moz-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+
+.profileBox-basic h3{
+    display:inline;
+    font-family: "Give You Glory";
+}
+
+.profileBox-info h4{
+    text-decoration:underline;
+    display:inline;
+    font-family: 'Amatic SC', cursive;
+}
+
+.home{
+    position:absolute;
+    bottom:3%;
+    right:3%;
+}
+
+.down{
+    position:absolute;
+    -moz-transform:translate(-50%,0%);
+    -webkit-transform:translate(-50%,0%);
+    -o-transform:translate(-50%,0%);
+    -ms-transform:translate(-50%,0%);
+    transform:translate(-50%,0%);
+    color:white;
+    font-size: 300%;
+    text-align:center;
+    left:50%;
+    bottom:3%;
+    overflow:none;
+}
+
+.down .fa{
+    animation: drop 1.5s ease-in-out infinite;
+}
+
+@keyframes drop
+{
+    0%
+    {
+        transform: translate(-50%,-10%);
+        text-shadow: 0.2px 0.3px white;
+    }
+    50%
+    {
+        transform: translate(-50%,0%);
+        text-shadow: 0.3px 0.5px white;
+    }
+    70%
+    {
+        transform: translate(-50%,5%);
+        text-shadow: 0.3px 0.7px white;
+    }
+    100%
+    {
+        transform: translate(-50%,10%);
+        text-shadow: 0.5px 1px white;
+    }
+
+
+}
+.fa-home{
+    color:white;
+    font-size:225%;
+}
+
+.fa-home:hover{
+    color:#b7adad;
+}
+
+.changePos h4{
+    color:white;
+    display:inline;
+    font-family: 'Amatic SC', cursive;
+}
