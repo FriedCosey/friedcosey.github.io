@@ -1,17 +1,17 @@
 body{
     margin:0;
     padding:0;
-    background-color: rgba(8, 9, 3, 1);
+    background-color: #000000;
 }
 
 .profileBox-pic{
     border-radius: 50%;
     width:25%;
-    height:25;
+    height:25%;
 }
 
 .profileBox{
-    width:30%;
+    width:20%;
     height:35%;
     margin:auto;
     margin-top:15%;
