@@ -158,13 +158,37 @@ nav{
     left:3%;
 }
 
+.notes {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.notes li{
+    list-style: none;
+}
+
+.notes li::before{
+    content: '\25E6';
+    padding-left:-3%;
+    width: 3%;
+    display: inline-block;
+    font-size: 100%;
+}
+.notes li:hover {
+    color: #b7adad;
+}
+
+
 @media screen and (max-width: 700px) {
        h3{
            font-size: 0.8em;
+       }
+       .notes{
+            font-size: 0.5em;
        }
        h4
        {
            font-size:0.6em;
        }
 }
-
