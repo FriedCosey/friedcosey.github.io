@@ -3,14 +3,14 @@ body{
     margin:0%;
     padding:0%;
     height:100%;
-    weight:100%;
+    width:100%;
 }
 
 h3 {
-  font-size: 1.9vw;
+  font-size: 1.8em;
 }
 h4 {
-  font-size: 1.7vw;
+  font-size: 1.2em;
 }
 .profileBox-pic{
     border-radius:50%;
@@ -53,5 +53,16 @@ h4 {
 
 .fa-book:hover{
     color:#b7adad;
+}
+
+
+@media screen and (max-width: 700px) {
+       h3{
+           font-size: 1.3em; 
+       }
+       h4
+       {
+           font-size:0.8em;
+       }
 }
 
