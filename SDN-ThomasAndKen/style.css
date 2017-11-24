@@ -158,21 +158,22 @@ nav{
     left:3%;
 }
 
-.notes{
-    margin-right: 5%;
-    margin-left:5%;
-}
 
 .notes ul {
+    display:inline-block;
     font-family: 'Pathway Gothic One', sans-serif;
     text-align: justify;
     font-size: 1.2em;
     list-style:none;
     -webkit-padding-start: 0;
     padding:0;
+    margin-right: 5%;
+    margin-left:5%;
 }
 
 .notes li{
+    margin-right: 5%;
+    margin-left:5%;
     list-style: none;
 }
 
