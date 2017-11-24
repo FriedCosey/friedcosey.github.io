@@ -41,9 +41,7 @@ html, body{
 .up{
     display:inline;
     color:white;
-    font-size: 300%;
-    text-align:center;
-    overflow:none;
+    font-size:150%;
 }
 
 .up .fa{
@@ -54,8 +52,9 @@ html, body{
 {
     100%
     {
-        transform: translate(0%,-10%);
+        transform: translate(0%,-5%);
         text-shadow: 0.2px 0.3px white;
+        opacity: 0;
     }
     70%
     {
@@ -64,24 +63,22 @@ html, body{
     }
     50%
     {
-        transform: translate(0%,5%);
+        transform: translate(0%,3%);
         text-shadow: 0.3px 0.7px white;
     }
     0%
     {
-        transform: translate(0%,10%);
+        transform: translate(0%,5%);
         text-shadow: 0.5px 1px white;
+        opacity: 0.5;
     }
-
 
 }
 
 .down{
     display:inline;
     color:white;
-    font-size: 300%;
-    text-align:center;
-    overflow:none;
+    font-size: 150%;
 }
 
 .down .fa{
@@ -92,8 +89,9 @@ html, body{
 {
     0%
     {
-        transform: translate(0%,-10%);
+        transform: translate(0%,-5%);
         text-shadow: 0.2px 0.3px white;
+        opacity:0.5;
     }
     50%
     {
@@ -102,13 +100,14 @@ html, body{
     }
     70%
     {
-        transform: translate(0%,5%);
+        transform: translate(0%,3%);
         text-shadow: 0.3px 0.7px white;
     }
     100%
     {
-        transform: translate(0%,10%);
+        transform: translate(0%,5%);
         text-shadow: 0.5px 1px white;
+        opacity: 0;
     }
 
 
