@@ -6,6 +6,13 @@ html, body{
     width:100%;
 }
 
+h3 {
+  font-size: 1.9vw;
+}
+h4 {
+  font-size: 1.7vw;
+}
+
 .profileBox-pic{
     border-radius:50%;
     width:25%;
