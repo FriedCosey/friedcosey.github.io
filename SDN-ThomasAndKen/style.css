@@ -187,6 +187,10 @@ nav{
     color: #b7adad;
 }
 
+.notes span{
+    position: relative;
+    left:2%;
+}
 
 @media screen and (max-width: 700px) {
        h3{
