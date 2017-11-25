@@ -40,22 +40,32 @@ h4 {
     font-family: "Give You Glory";
 }
 
+.profileBox-info a{
+    color:white;
+}
+
+.title{
+    text-decoration:none;
+    display:inline-block;
+    background-color:rgba(255,255,255,0.5);
+}
+
 .profileBox-info h4{
     text-decoration:underline;
     display:inline;
     font-family: 'Amatic SC', cursive;
 }
 
-.fa-book{
+.fa-pencil{
     color:white;
     font-size:125%;
 }
 
-.fa-book:hover{
+
+
+.profileBox a:hover{
     color:#b7adad;
 }
-
-
 @media screen and (max-width: 700px) {
        h3{
            font-size: 1.3em; 
