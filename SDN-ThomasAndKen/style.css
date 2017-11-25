@@ -175,6 +175,7 @@ nav{
     margin-right: 5%;
     margin-left:5%;
     list-style: none;
+    text-indent:-2.5%;
 }
 
 .notes li::before{
@@ -189,7 +190,9 @@ nav{
 }
 
 .notes span{
+    margin-right:5%;
     position: relative;
+    text-align:justify;
     left:2%;
 }
 
@@ -204,4 +207,18 @@ nav{
        {
            font-size:0.6em;
        }
+}
+
+
+.learn span {
+    background-color:rgba(255,255,255,0.3);
+}
+
+.important span {
+    background-color:rgba(245,192,125,0.7);
+}
+.study{
+    text-decoration:underline;
+    font-style:normal;
+    background-color:rgba(255,255,255,0.5);
 }
