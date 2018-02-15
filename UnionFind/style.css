@@ -184,6 +184,15 @@ nav{
     display: inline-block;
     font-size: 100%;
 }
+
+.link a{
+    font-family: 'Pathway Gothic One', sans-serif;
+    color:white;
+}
+
+.link a:hover{
+    color: #b7adad;
+}
 .notes li:hover {
     color: #b7adad;
 }

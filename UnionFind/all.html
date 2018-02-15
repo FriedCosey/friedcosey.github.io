@@ -43,8 +43,11 @@
                     <br>
                     <h4 class="learn">Solution</h4>
                     <br>
-                    <em class="quote">Implement weighted quick union with an extra array recording the largest element.<br> Initialize three arrays <em class="learn"> root[] </em>, <em class="learn"> size[] </em>, and <em class="learn"> max[] </em>. Every index of size[] is initialize to 1, max[i] to i, and root[i] to i.<br>Union: root[rootOfSmallerSize(x)] = rootOfLargerSize(y)<br> Connected: check if rootOf(x) == rootOf(y)<br>Find: return size[rootOf(x)]</em>
-
+                    <em class="quote">Implement weighted quick union with an extra array recording the largest element.<br> Initialize three arrays <em class="learn"> root[] </em>, <em class="learn"> size[] </em>, and <em class="learn"> largest[] </em>. Every index of size[] is initialize to 1, largest[i] to i, and root[i] to i.<br>Union: root[rootOfSmallerSize(x)] = rootOfLargerSize(y)<br> Connected: check if rootOf(x) == rootOf(y)<br>Find: return largest[rootOf(x)]</em><br>
+                    <h4 class="learn">Code:</h4>
+                    <br>
+                    <em class="link"><a href="https://github.com/FriedCosey/unionFind/blob/master/ufLargest.java">ufLargest</a></em>
+                    <em class="link"><a href="https://github.com/FriedCosey/unionFind/blob/master/tester.java">tester</a></em>
                 </div>
             </div>
         </section>
