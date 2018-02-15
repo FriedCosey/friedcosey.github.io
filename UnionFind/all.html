@@ -21,61 +21,65 @@
             <div class="down">
                 <a href="#section2"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
             </div>
-            <h4>[Home]</h4>
+            <h4>[About]</h4>
             <a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
         </div>
-
+        <!--
         <nav> 
             <a href="#section1">[1]</a>
             <a href="#section2">[2]</a>
             <a href="#section3">[3]</a>
         </nav>
-
+        !-->
         <section id="sdn-section1">
             <div class="profileBox">
                 <div class="profileBox-basic">
-                    <h3>SDN By Thomas D.Nadeau and Ken Gray [Notes]</h3>
+                    <h3>Union Find Exercises</h3>
                 </div>
                 <div class="profileBox-info">
-                    <h4>Chapter One - </h4><em class="quote">SDN is about operational optimization and efficiency</em>
-                    <div class="notes">
-                        <ul>
-                            <li><span>In the past, storage, computing and network resources were seperated</span></li>
-                            <li><span>Some departmental servers migrated into data centers: focused on specific server functionality</span></li>
-                            <li><span>VMware invented the technology that allow multiple client operating systems to execute on one host system</span></li>
-                            <li><span>Elastic Computing: operations department can be moved easily -> Boost in computing power, utilization of storage, cooling ...</span></li>
-                            <li class="learn"><span>MPLS VPN (Multiprotocol Label Switching Virtual Private Network): Using a label to seperate VPN</span></li>
-                            <li><span>Execution enviroment from single user: Usually a flat LAN, MPLS VPN is applied when seperation needed -> multitenant: Resources need to be SEPERATED</span></li>
-                            <li class="learn"><span>Layer 2: Exchange packets by MAC Layer 3: Exchange packets by IP</span></li>
-                            <li><span>Multitenant Difficulties: External routing, IP needed! However, programming commercial routers in the past were difficult -> The concept of <em class="study">distributed control plane </em>emerges</span></li>
-                            <li class="important"><span>Concept of <em class="study">SDN</em> emerges: Openflow protocol: devices containing only data planes which respond to commands from centralized controller that housed control plane</span></li>
-                            <li><span>ONF: Open Networking Foundation</span></li>
-                            <li><span>I2RS(Interface to the Routing system): Protocol and components to program a network devices's RIB(routing information base)</span></li>
-                            <li class="important"><span>SDN: Architectural approach to optimize and simplify network operations by closer binding the interaction </span></li>
-                        </ul>
-                    </div>
+                    <h4 class="learn">Question One</h4>
+                    <br>
+                    <em class="quote">Union-find with specific canonical element. Add a method 𝚏𝚒𝚗𝚍() to the union-find data type so that 𝚏𝚒𝚗𝚍(𝚒) returns the largest element in the connected component containing i. The operations, 𝚞𝚗𝚒𝚘𝚗(), 𝚌𝚘𝚗𝚗𝚎𝚌𝚝𝚎𝚍(), and 𝚏𝚒𝚗𝚍() should all take logarithmic time or better.</em> 
+                    <br>
+                    <h4 class="learn">Solution</h4>
+                    <br>
+                    <em class="quote">Implement weighted quick union with an extra array recording the largest element.<br> Initialize three arrays <em class="learn"> root[] </em>, <em class="learn"> size[] </em>, and <em class="learn"> max[] </em>. Every index of size[] is initialize to 1, max[i] to i, and root[i] to i.<br>Union: root[rootOfSmallerSize(x)] = rootOfLargerSize(y)<br> Connected: check if rootOf(x) == rootOf(y)<br>Find: return size[rootOf(x)]</em>
+
                 </div>
             </div>
         </section>
+        
         <section id="sdn-section2">
             <div class="profileBox">
                 <div class="profileBox-basic">
-                    <h3>SDN By Thomas D.Nadeau and Ken Gray [Notes]</h3>
+                    <h3>Union Find Exercises</h3>
                 </div>
                 <div class="profileBox-info">
-                    <h4>Chapter Two</h4>
+                    <h4>Question Two</h4>
+                    <br>
+                    <em class="quote">Successor with delete. Given a set of n integers S={0,1,...,n−1} and a sequence of requests of the following form:
+                    [Remove x from S]
+                    [Find the successor of x: the smallest y in S such that y≥x.]
+                    design a data type so that all operations (except construction) take logarithmic time or better in the worst case.</em> R 
                 </div>
             </div>
         </section>
-        <section id="sdn-section3">
-            <div class="profileBox">
-                <div class="profileBox-basic">
-                    <h3>SDN By Thomas D.Nadeau and Ken Gray [Notes]</h3>
-                </div>
-                <div class="profileBox-info">
-                    <h4>Chapter Three</h4>
-                </div>
-            </div>
-        </section>
+
+                <!--    <h4>Question Two</h4>
+                    <br>
+                    <em class="quote">Successor with delete. Given a set of n integers S={0,1,...,n−1} and a sequence of requests of the following form:
+                    </em>
+                    <br>
+                    <em class="quote">
+                    Remove x from S
+                    </em>
+                    <br>
+                    <em class="quote">
+                    Find the successor of x: the smallest y in S such that y≥x.
+                    </em>
+                    <br>
+                    <em class="quote">
+                    design a data type so that all operations (except construction) take logarithmic time or better in the worst case.</em>
+                </div> !-->
     </body>
 </html>

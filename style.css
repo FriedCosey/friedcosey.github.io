@@ -15,13 +15,13 @@ h4 {
 .profileBox-pic{
     border-radius:50%;
     width:10%;
-    margin-top:-3%;
+    margin-top:-2%;
     height:10%;
 }
 
 .profileBox{
     width:100%;
-    height:94%;
+    height:90%;
     background-color:rgba(8, 9, 37, 0.7);
 	border-style: solid;
 	border-color: black;

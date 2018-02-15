@@ -21,11 +21,9 @@ h4 {
 }
 
 .profileBox{
-    width:80%;
-    height:76%;
-    background-color:rgba(8, 9, 37, 0.5);
     color: white;
-    text-align:center;
+    text-align:left;
+    padding: 10%;
 }
 
 .profileBox-basic h3{
@@ -34,6 +32,7 @@ h4 {
 }
 
 .profileBox-info h4{
+    text-align: left;
     text-decoration:underline;
     display:inline;
     font-family: 'Amatic SC', cursive;
@@ -41,7 +40,7 @@ h4 {
 
 .home{
     position:fixed;
-    bottom:3%;
+    bottom:0%;
     right:3%;
 }
 
@@ -194,6 +193,10 @@ nav{
     position: relative;
     text-align:justify;
     left:2%;
+}
+
+.learn {
+    background-color:rgba(255,255,255,0.3);
 }
 
 .learn span {
