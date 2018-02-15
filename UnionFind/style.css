@@ -1,0 +1,233 @@
+html, body{
+    background-color: #1b254a;
+    margin:0%;
+    padding:0%;
+    height:100%;
+    width:100%;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+h4 {
+  font-size: 1.2em;
+}
+
+.profileBox-pic{
+    border-radius:50%;
+    width:25%;
+    margin-top:-10%;
+    height:25%;
+}
+
+.profileBox{
+    width:80%;
+    height:76%;
+    background-color:rgba(8, 9, 37, 0.5);
+    color: white;
+    text-align:center;
+}
+
+.profileBox-basic h3{
+    display:inline;
+    font-family: "Give You Glory";
+}
+
+.profileBox-info h4{
+    text-decoration:underline;
+    display:inline;
+    font-family: 'Amatic SC', cursive;
+}
+
+.home{
+    position:fixed;
+    bottom:3%;
+    right:3%;
+}
+
+.up{
+    display:inline;
+    color:white;
+    font-size:150%;
+}
+
+.up .fa{
+    animation:rise  1.5s ease-in-out infinite;
+}
+
+@keyframes rise
+{
+    100%
+    {
+        transform: translate(0%,-5%);
+        text-shadow: 0.2px 0.3px white;
+        opacity: 0;
+    }
+    70%
+    {
+        transform: translate(0%,0%);
+        text-shadow: 0.3px 0.5px white;
+    }
+    50%
+    {
+        transform: translate(0%,3%);
+        text-shadow: 0.3px 0.7px white;
+    }
+    0%
+    {
+        transform: translate(0%,5%);
+        text-shadow: 0.5px 1px white;
+        opacity: 0.5;
+    }
+
+}
+
+.down{
+    display:inline;
+    color:white;
+    font-size: 150%;
+}
+
+.down .fa{
+    animation: drop 1.5s ease-in-out infinite;
+}
+
+@keyframes drop
+{
+    0%
+    {
+        transform: translate(0%,-5%);
+        text-shadow: 0.2px 0.3px white;
+        opacity:0.5;
+    }
+    50%
+    {
+        transform: translate(0%,0%);
+        text-shadow: 0.3px 0.5px white;
+    }
+    70%
+    {
+        transform: translate(0%,3%);
+        text-shadow: 0.3px 0.7px white;
+    }
+    100%
+    {
+        transform: translate(0%,5%);
+        text-shadow: 0.5px 1px white;
+        opacity: 0;
+    }
+
+
+}
+.fa{
+    color:white;
+    font-size:105%;
+}
+
+.fa:hover{
+    color:#b7adad;
+}
+
+
+nav a:hover{
+    color:#b7adad;
+}
+
+.home h4{
+    color:white;
+    display:inline;
+    font-family: 'Amatic SC', cursive;
+}
+
+section{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    font-family: 'Amatic SC', cursive;
+}
+
+nav{
+    position:fixed;
+    bottom:3%;
+    left:3%;
+}
+
+
+.notes ul {
+    display:inline-block;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+    list-style:none;
+    -webkit-padding-start: 0;
+    padding:0;
+    margin-right: 5%;
+    margin-left:5%;
+}
+
+.notes li{
+    margin-right: 5%;
+    margin-left:5%;
+    list-style: none;
+    text-indent:-2.5%;
+}
+
+.notes li::before{
+    content: '\25E6';
+    padding-left:-3%;
+    width: 3%;
+    display: inline-block;
+    font-size: 100%;
+}
+.notes li:hover {
+    color: #b7adad;
+}
+
+.notes span{
+    margin-right:5%;
+    position: relative;
+    text-align:justify;
+    left:2%;
+}
+
+.learn span {
+    background-color:rgba(255,255,255,0.3);
+}
+
+.important span {
+    background-color:rgba(245,192,125,0.7);
+}
+.study{
+    text-decoration:underline;
+    font-style:normal;
+    background-color:rgba(255,255,255,0.5);
+}
+.quote{
+    border-bottom: 1px dotted white;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    font-style:normal;
+    font-size:1.2em;
+}
+@media screen and (max-width: 700px) {
+       h3{
+           font-size: 0.8em;
+       }
+       .notes{
+            font-size: 0.5em;
+       }
+       h4
+       {
+           font-size:0.6em;
+       }
+       .quote{
+           font-size:0.6em;
+       }
+    
+}
