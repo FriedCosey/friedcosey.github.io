@@ -186,7 +186,7 @@ nav{
 }
 
 .link a{
-    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color:white;
 }
 
@@ -222,7 +222,7 @@ nav{
 }
 .quote{
     border-bottom: 1px dotted white;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-decoration: none;
     font-style:normal;
     font-size:1.2em;
