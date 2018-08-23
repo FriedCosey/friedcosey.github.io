@@ -1,11 +1,42 @@
 body{
-    background-color: #1b254a;
+    background-color:rgba(0, 0, 0, 0.7);
     margin:0%;
     padding:0%;
     height:100%;
     width:100%;
 }
+.outerBox{
+    z-index: -10;
+    width:100%;
+    height:100%;
+    /* background-color: #1b254a; */
+    background-image: url('images/Background.jpeg');
+    background-size: cover;
+    background-position: center center;
+	border-style: solid;
+	border-color: black;
+	border-width: thin;
+    color: white;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -moz-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
 
+}
+.boxOverlay{
+    position: absolute;
+    background-color: rgba(27, 37, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
 h3 {
   font-size: 1.8em;
 }
@@ -14,17 +45,16 @@ h4 {
 }
 .profileBox-pic{
     border-radius:50%;
-    width:10%;
-    margin-top:-2%;
-    height:10%;
+    width:15%;
+    margin-top:-5%;
+    height:15%;
 }
 
 .profileBox{
     width:50%;
-    height:90%;
+    height:30%;
     background-color:rgba(8, 9, 37, 0.7);
-	border-style: solid;
-	border-color: black;
+	border-style: none;
 	border-width: thin;
     color: white;
     text-align:center;
@@ -58,14 +88,13 @@ h4 {
     display:inline;
     font-family: 'Amatic SC', cursive;
 }
-
-.fa-pencil{
-    color:white;
-    font-size:125%;
+.fab:hover{
+    color:#b7adad;
 }
 
-
-
+.fa-github-square{
+    border-radius: 50%;
+}
 .profileBox a:hover{
     color:#b7adad;
 }
