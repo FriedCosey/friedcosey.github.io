@@ -88,10 +88,19 @@ h4 {
     display:inline;
     font-family: 'Amatic SC', cursive;
 }
+.fas{
+    margin: 1%;
+}
+.fab{
+    margin: 1%;
+}
 .fab:hover{
     color:#b7adad;
 }
 
+.fas:hover{
+    color:#b7adad;
+}
 .fa-github-square{
     border-radius: 50%;
 }
