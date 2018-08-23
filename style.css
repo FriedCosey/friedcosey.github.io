@@ -108,6 +108,12 @@ h4 {
     color:#b7adad;
 }
 @media screen and (max-width: 700px) {
+       .fab{
+           size: 25%; 
+       }    
+       .fas{
+           size: 25%;
+       }
        h3{
            font-size: 1.3em; 
        }
