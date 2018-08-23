@@ -109,10 +109,10 @@ h4 {
 }
 @media screen and (max-width: 700px) {
        .fab{
-           font-size: 50%; 
+           font-size: 150%; 
        }    
        .fas{
-           font-size: 50%;
+           font-size: 150%;
        }
        h3{
            font-size: 0.8em; 
